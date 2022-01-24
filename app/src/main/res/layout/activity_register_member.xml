@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterMember"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorButton">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="MyGym"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/robotobold"
+        android:textColor="@color/colorBasic"
+        android:layout_marginTop="80dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:background="@drawable/custom_button"
+        android:orientation="vertical"
+        android:gravity="top">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Email"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button3"
+            android:layout_marginLeft="30dp"
+            android:hint="Put your email here"
+            android:textAlignment="center"
+            android:id="@+id/registerMemberEmail"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Nama"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button3"
+            android:layout_marginLeft="30dp"
+            android:hint="Put your name here"
+            android:textAlignment="center"
+            android:id="@+id/registerMemberName"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Upload Bukti Pembayaran"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            >
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Upload Photo"
+            android:id="@+id/uploadBtn"/>
+
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/uploadPhoto"/>
+
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="daftar"
+            android:fontFamily="@font/robotobold"
+            android:layout_gravity="center"
+            android:id="@+id/daftar"/>
+
+    </LinearLayout>
+
+</LinearLayout>
